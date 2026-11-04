@@ -7,7 +7,7 @@
   "type": "module",
   "description": "Backend apis",
   "engines": {
-    "node": "18.x"
+    "node": "26.x"
   },
   "scripts": {
     "postinstall": "prisma generate",
@@ -40,7 +40,7 @@
     "xlsx": "^0.18.5"
   },
   "resolutions": {
-    "buffer-equal-constant-time": "1.0.1"
+    "buffer-equal-constant-time": "^1.0.1"
   },
   "overrides": {
     "buffer-equal-constant-time": "^1.0.1"
