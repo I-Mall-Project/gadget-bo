@@ -56,5 +56,5 @@ app.use("/api", allRoutes);
 const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
-  console.log(`Cosmetics API is working on port ${port}`);
+  console.log(`Gadget API is working on port ${port}`);
 });
